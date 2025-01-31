@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    
+
+}
+.navegacao{
+    background-color: red;
+    text-align: center;
+}
+
+.navegacao ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegacao ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo_principal .foto{
+    display: flex;
+    justify-content: center;
+}
+.conteudo_principal .foto img{
+    display: flex;
+    width: 400px; /* Tamanho da imagem */
+    height: 400px; /* Tamanho da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border: 5px solid #333; /* Borda opcional */
+}
+
+.conteudo_principal .informacoes .quem__sou{
+    background-color: rgba(245, 222, 179, 0.528);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.conteudo_principal .informacoes .meus__projetos{
+    background-color: rgba(245, 222, 179, 0.48);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+}
+.meus__projetos .projeto1 a img{
+    display: flex;
+    width: 200px; /* Tamanho da imagem */
+    height: 200px; /* Tamanho da imagem */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border: 5px solid #333; /* Borda opcional */
+    
+}
+.meus__projetos .projeto1 a h2{
+    text-align: center;
+}
+.meus__projetos ul li{
+    display: inline-block; /* Coloca os itens lado a lado */
+    margin-right: 10px; /* Adiciona espaço entre os itens */
+    padding: 10px; /* Adiciona padding interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.conteudo_principal .servicos{
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.48);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+}
+.conteudo_principal .servicos .tabela_Servico{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid #333;
+}
+    
+
+
+.conteudo_principal .contato{
+    background-color: rgba(245, 222, 179, 0.48);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+    
+}
+
+
+
+.conteudo_principal .informacoes .links{
+    background-color: rgba(245, 222, 179, 0.48);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+}
+.links .rede_social a img{
+    display: flex;
+    width: 50px; /* Tamanho da imagem */
+    height: 50px; /* Tamanho da imagem */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    
+}
+.links .rede_social a h2{
+    text-align: center;
+}
+.links ul li{
+    display: inline-block; /* Coloca os itens lado a lado */
+    margin-right: 10px; /* Adiciona espaço entre os itens */
+    padding: 10px; /* Adiciona padding interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+   
+
+
+
+
+
+

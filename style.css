@@ -1,7 +1,17 @@
 body{
-    background-color: black;
+    color: rgba(0, 255, 174, 0.671);
+   
     
 
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 .navegacao{
     background-color: red;
@@ -38,13 +48,13 @@ body{
 }
 
 .conteudo_principal .informacoes .quem__sou{
-    background-color: rgba(245, 222, 179, 0.528);
+    background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
 }
 .conteudo_principal .informacoes .meus__projetos{
-    background-color: rgba(245, 222, 179, 0.48);
+    background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -70,21 +80,22 @@ body{
 
 .conteudo_principal .servicos{
     text-align: center;
-    background-color: rgba(245, 222, 179, 0.48);
+    background-color: rgba(245, 222, 179, 0.169);
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
 }
 .conteudo_principal .servicos .tabela_Servico{
+    list-style-type: none;
     margin-left: 100px;
     margin-right: 100px;
-    border: 5px solid #333;
+    border: 5px solid rgba(245, 222, 179, 0.169);
 }
     
 
 
 .conteudo_principal .contato{
-    background-color: rgba(245, 222, 179, 0.48);
+    background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -95,7 +106,7 @@ body{
 
 
 .conteudo_principal .informacoes .links{
-    background-color: rgba(245, 222, 179, 0.48);
+    background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -111,11 +122,20 @@ body{
 .links .rede_social a h2{
     text-align: center;
 }
+
 .links ul li{
+    
     display: inline-block; /* Coloca os itens lado a lado */
     margin-right: 10px; /* Adiciona espaço entre os itens */
     padding: 10px; /* Adiciona padding interno */
     border-radius: 5px; /* Bordas arredondadas */
+}
+
+.rodape{
+    background-color: rgba(245, 222, 179, 0.48);
+    text-align: center;
+    
+    
 }
 
    

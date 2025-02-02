@@ -1,9 +1,7 @@
-body{
+body {
     color: rgba(0, 255, 174, 0.671);
-   
-    
-
 }
+
 .video-bg {
     position: fixed;
     top: 0;
@@ -13,32 +11,13 @@ body{
     object-fit: cover;
     z-index: -1;
 }
-.navegacao{
-    background-color: red;
-    text-align: center;
-}
 
-.navegacao ul {
-    list-style: none;
-    padding: 0;
-}
-
-.navegacao ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.navegacao ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.conteudo_principal .foto{
+.conteudo_principal .foto {
     display: flex;
     justify-content: center;
 }
-.conteudo_principal .foto img{
+
+.conteudo_principal .foto img {
     display: flex;
     width: 400px; /* Tamanho da imagem */
     height: 400px; /* Tamanho da imagem */
@@ -47,101 +26,117 @@ body{
     border: 5px solid #333; /* Borda opcional */
 }
 
-.conteudo_principal .informacoes .quem__sou{
+.conteudo_principal .informacoes .quem__sou {
     background-color: rgba(245, 222, 179, 0.169);
-    text-align: center;
+    text-align: justify; /* Texto justificado */
     margin-left: 50px;
     margin-right: 50px;
+    padding: 20px; /* Adiciona padding para melhor espaçamento */
+    line-height: 1.6; /* Melhora a legibilidade */
 }
-.conteudo_principal .informacoes .meus__projetos{
+
+.conteudo_principal .informacoes .meus__projetos {
     background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
 }
-.meus__projetos .projeto1 a img{
+
+.meus__projetos .projeto1 a img {
     display: flex;
     width: 200px; /* Tamanho da imagem */
     height: 200px; /* Tamanho da imagem */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
     border: 5px solid #333; /* Borda opcional */
-    
 }
-.meus__projetos .projeto1 a h2{
+
+.meus__projetos .projeto1 a h2 {
     text-align: center;
+    color: white; /* Cor branca para o título */
+    text-decoration: none; /* Remove o sublinhado */
 }
-.meus__projetos ul li{
+
+.meus__projetos ul li {
     display: inline-block; /* Coloca os itens lado a lado */
     margin-right: 10px; /* Adiciona espaço entre os itens */
     padding: 10px; /* Adiciona padding interno */
     border-radius: 5px; /* Bordas arredondadas */
 }
 
-.conteudo_principal .servicos{
+.conteudo_principal .servicos {
     text-align: center;
     background-color: rgba(245, 222, 179, 0.169);
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
 }
-.conteudo_principal .servicos .tabela_Servico{
+
+.conteudo_principal .servicos .tabela_Servico {
     list-style-type: none;
     margin-left: 100px;
     margin-right: 100px;
-    border: 5px solid rgba(245, 222, 179, 0.169);
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui os itens uniformemente */
 }
-    
 
+.conteudo_principal .servicos .tabela_Servico li {
+    flex: 1 1 45%; /* Ajusta o tamanho dos itens para caber em telas menores */
+    margin: 10px; /* Adiciona margem entre os itens */
+    text-align: left; /* Alinha o texto à esquerda */
+}
 
-.conteudo_principal .contato{
+.conteudo_principal .contato {
     background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
-    
 }
 
-
-
-.conteudo_principal .informacoes .links{
+.conteudo_principal .informacoes .links {
     background-color: rgba(245, 222, 179, 0.169);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
 }
-.links .rede_social a img{
+
+.links .rede_social a img {
     display: flex;
     width: 50px; /* Tamanho da imagem */
     height: 50px; /* Tamanho da imagem */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
-    
 }
-.links .rede_social a h2{
+
+.links .rede_social a h2 {
     text-align: center;
 }
 
-.links ul li{
-    
+.links ul li {
     display: inline-block; /* Coloca os itens lado a lado */
     margin-right: 10px; /* Adiciona espaço entre os itens */
     padding: 10px; /* Adiciona padding interno */
     border-radius: 5px; /* Bordas arredondadas */
 }
 
-.rodape{
+.rodape {
     background-color: rgba(245, 222, 179, 0.48);
     text-align: center;
-    
-    
 }
 
-   
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .conteudo_principal .servicos .tabela_Servico li {
+        flex: 1 1 100%; /* Faz os itens ocuparem toda a largura em telas menores */
+    }
 
-
-
-
-
-
+    .conteudo_principal .informacoes .quem__sou,
+    .conteudo_principal .informacoes .meus__projetos,
+    .conteudo_principal .servicos,
+    .conteudo_principal .links {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

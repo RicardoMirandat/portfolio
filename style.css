@@ -1,5 +1,5 @@
 body {
-    color: rgba(0, 255, 174, 0.671);
+    color: rgba(0, 204, 255, 0.774);
 }
 
 .video-bg {
@@ -27,20 +27,24 @@ body {
 }
 
 .conteudo_principal .informacoes .quem__sou {
-    background-color: rgba(245, 222, 179, 0.169);
+    background-color: rgba(203, 179, 245, 0.197);
     text-align: justify; /* Texto justificado */
     margin-left: 50px;
     margin-right: 50px;
     padding: 20px; /* Adiciona padding para melhor espaçamento */
     line-height: 1.6; /* Melhora a legibilidade */
+    border-radius: 10px;
+    
 }
 
 .conteudo_principal .informacoes .meus__projetos {
-    background-color: rgba(245, 222, 179, 0.169);
+    background-color: rgba(203, 179, 245, 0.197);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
+    border-radius: 10px;
+    
 }
 
 .meus__projetos .projeto1 a img {
@@ -66,10 +70,11 @@ body {
 
 .conteudo_principal .servicos {
     text-align: center;
-    background-color: rgba(245, 222, 179, 0.169);
+    background-color: rgba(203, 179, 245, 0.197);
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
+    border-radius: 10px;
 }
 
 .conteudo_principal .servicos .tabela_Servico {
@@ -88,19 +93,21 @@ body {
 }
 
 .conteudo_principal .contato {
-    background-color: rgba(245, 222, 179, 0.169);
+    background-color:rgba(203, 179, 245, 0.197);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
+    border-radius: 10px;
 }
 
 .conteudo_principal .informacoes .links {
-    background-color: rgba(245, 222, 179, 0.169);
+    background-color: rgba(203, 179, 245, 0.197);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
+    border-radius: 10px;
 }
 
 .links .rede_social a img {
@@ -122,7 +129,7 @@ body {
 }
 
 .rodape {
-    background-color: rgba(245, 222, 179, 0.48);
+    background-color: rgba(203, 179, 245, 0.197);
     text-align: center;
 }
 

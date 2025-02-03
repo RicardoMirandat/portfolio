@@ -52,13 +52,13 @@ body {
     width: 200px; /* Tamanho da imagem */
     height: 200px; /* Tamanho da imagem */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
-    border: 5px solid #333; /* Borda opcional */
+
 }
 
 .meus__projetos .projeto1 a h2 {
     text-align: center;
     color: white; /* Cor branca para o título */
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none;
 }
 
 .meus__projetos ul li {
